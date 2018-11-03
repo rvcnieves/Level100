@@ -1,3 +1,5 @@
+##### 4.4 #1-3
+
 #1.
 # 
 my_variable <- 10
@@ -26,7 +28,9 @@ filter(diamonds, carat > 3)
 #Also, we can get there by selecting the "Tools" menu and 
 #selecting the "Keyboard Shortcuts Help" option. 
 
-# 5 
+
+#################################
+####### 5.2.4 #1-4
 
 # 1. Find all flights that
 # 
@@ -97,6 +101,7 @@ colSums(is.na(flights))
 #   Any calculation made with missing values where the result will be always the same no matter what value is used, will not result in a missing value.
 
 #########
+#### 5.3.1 #1-4
 
 # How could you use arrange() to sort all missing values to the start? (Hint: use is.na()).
 # 
@@ -122,6 +127,8 @@ View(arrange(flights,(distance)))
 
 
 #################################################
+# 5.4.1 #2-4
+
 
 # Brainstorm as many ways as possible to select dep_time, dep_delay, arr_time, and arr_delay from flights.
 # 
